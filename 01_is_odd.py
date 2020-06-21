@@ -18,7 +18,10 @@ import unittest
 
 
 def is_odd(n):
-    pass
+    if n%2 ==0:
+      return False
+    else:
+      return True
 
 
 # DO NOT TOUCH THE BELOW CODE
